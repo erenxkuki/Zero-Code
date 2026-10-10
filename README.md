@@ -1,3 +1,5 @@
+<div align="center">
+
 # ⚡ Zero Coder
 
 ### **Zero Friction. Zero Token Waste. Infinite Context.**
