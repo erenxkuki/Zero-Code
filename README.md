@@ -1,3 +1,4 @@
+```markdown
 <div align="center">
 
 # ⚡ Zero Coder
@@ -5,6 +6,7 @@
 ### **Zero Friction. Zero Token Waste. Infinite Context.**
 *The open-source AI coding agent built for lightning-fast desktop performance, dynamic multi-provider routing, and zero context loss.*
 
+[![GitHub Repo](https://img.shields.io/badge/GitHub-erenxkuki%2FZero--Coder-blue?logo=github)](https://github.com/erenxkuki/Zero-Coder)
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 [![Tauri 2.0](https://img.shields.io/badge/Tauri-2.0-blue.svg)](https://tauri.app/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-React-blue?logo=typescript)](https://www.typescriptlang.org/)
@@ -16,7 +18,7 @@
 
 ## 🚀 What is Zero Coder?
 
-**Zero Coder** is an elite, open-source desktop AI software engineering agent. Inspired by open-source agent tools like OpenCode, Zero Coder is engineered from the ground up to eliminate common developer pain points: lagging terminal UIs, sudden context-limit crashes, wasted token budgets, and rigid provider lock-in.
+**Zero Coder** is an elite, open-source desktop AI software engineering agent. Inspired by open-source agent tooling, Zero Coder is engineered from the ground up to eliminate common developer pain points: lagging terminal UIs, sudden context-limit crashes, wasted token budgets, and rigid provider lock-in.
 
 Powered by a **Tauri 2.0 (Rust) backend** and a **React + Tailwind CSS dark-minimal UI**, Zero Coder runs buttery-smooth at 60fps while keeping your CPU and RAM usage minimal.
 
@@ -35,7 +37,7 @@ Powered by a **Tauri 2.0 (Rust) backend** and a **React + Tailwind CSS dark-mini
 ## 📂 Repository Structure
 
 ```text
-zero-coder/
+Zero-Coder/
 ├── src-tauri/             # Rust high-performance backend
 │   ├── src/
 │   │   ├── main.rs        # Tauri entry point & command dispatch
@@ -46,3 +48,58 @@ zero-coder/
     ├── store/             # Zustand global state
     ├── components/        # Provider dropdown, Token gauge, Diff viewer, Live Preview
     └── services/          # Strongly typed Tauri IPC bridge
+
+```
+
+---
+
+## 🛠️ Quick Start & Installation
+
+### Prerequisites
+
+* [Node.js](https://nodejs.org/) (v18+)
+* [Rust toolchain](https://www.rust-lang.org/tools/install)
+* [Tauri CLI](https://tauri.app/v1/guides/getting-started/prerequisites)
+
+### 1. Clone the Repository
+
+```bash
+git clone [https://github.com/erenxkuki/Zero-Coder.git](https://github.com/erenxkuki/Zero-Coder.git)
+cd Zero-Coder
+
+```
+
+### 2. Install Frontend Dependencies
+
+```bash
+npm install
+
+```
+
+### 3. Run in Development Mode
+
+```bash
+npm run tauri dev
+
+```
+
+---
+
+## 🗺️ Roadmap
+
+* [x] Tauri 2.0 Desktop Shell & Rust IPC Bridge
+* [x] Dynamic `/v1/models` Provider Gateway (Ollama, OpenRouter, Custom)
+* [x] Tree-sitter AST & Search/Replace Diff Applier
+* [x] Auto-Anchor Context Compaction (`.zero/anchor.json`)
+* [ ] Built-in WebSocket Live Preview Inspector
+* [ ] GitHub OAuth & One-Click Auto-PR Pipeline
+
+---
+
+## 📜 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+```
+
+```
